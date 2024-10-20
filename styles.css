@@ -4,9 +4,6 @@
 :root {
   --header-height: 3rem;
   --font-semi: 600;
-
-  
-
   --hue-color: 224;
   --first-color: hsl(var(--hue-color), 89%, 60%);
   --second-color: rgb(26, 9, 23);
@@ -41,6 +38,12 @@ html {
 }
 
 body {
+  background-image: url('https://i.ibb.co/Mh87DFd/633c524b-3e4e-40ed-8ad8-485b36800d5d.jpg'); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
