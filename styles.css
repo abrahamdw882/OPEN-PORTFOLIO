@@ -431,7 +431,7 @@ img {
 }
 
 
-@media screen and (min-width: 596px) {
+@media screen and (min-width: 360px) {
   html, body {
     height: 100%; 
     margin: 0; 
