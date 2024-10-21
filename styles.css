@@ -656,9 +656,7 @@ body.dark-mode {
     flex-direction: column; 
   }
   
-  .main-content {
-    flex: 1; 
-  }
+
   
  .about__container {
     grid-template-columns: repeat(2, 1fr);
