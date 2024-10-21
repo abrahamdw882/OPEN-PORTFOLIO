@@ -380,6 +380,9 @@ img {
   }
 }
 
+
+
+
 .skills__container {
   grid-template-columns: 0.7fr;
   justify-content: center;
@@ -613,3 +616,30 @@ body.dark-mode {
     padding: 2rem 0;
   }
 }
+
+
+@media screen and (min-width: 750px) {
+  html, body {
+    height: 100%; 
+    margin: 0; 
+    overflow-x: hidden;
+  }
+ 
+  body {
+    display: flex; 
+    flex-direction: column;
+  }
+  
+  .main-content {
+    flex: 1; 
+  }
+  
+  .footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    font-weight: var(--font-semi);
+    padding: 2rem 0;
+  }
+}
+
