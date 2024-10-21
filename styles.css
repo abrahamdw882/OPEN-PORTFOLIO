@@ -618,7 +618,7 @@ body.dark-mode {
 }
 
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 780px) {
   html, body {
     height: 100%; 
     margin: 0; 
